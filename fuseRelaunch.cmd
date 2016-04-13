@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/RAHUL/vhdl_projects/Water_level_indicator/water_level_indicator_tb_isim_beh.exe" -prj "C:/Users/RAHUL/vhdl_projects/Water_level_indicator/water_level_indicator_tb_beh.prj" "work.water_level_indicator_tb" 

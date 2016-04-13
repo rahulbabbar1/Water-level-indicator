@@ -1,0 +1,28 @@
+Command line:
+   water_level_indicator_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  48872
+
+Thu Mar 31 18:14:42 2016
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 835.609 Meg
+
+ Total Signals          : 24
+ Total Nets             : 12
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 372
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 1150.18 Meg
+
+Thu Mar 31 18:15:25 2016
+

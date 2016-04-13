@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/RAHUL/vhdl_projects/Water_level_indicator/water_level_indicator.xst" -ofn "C:/Users/RAHUL/vhdl_projects/Water_level_indicator/water_level_indicator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 water_level_indicator.ngc water_level_indicator.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o water_level_indicator_map.ncd water_level_indicator.ngd water_level_indicator.pcf 
+par -w -intstyle ise -ol high -t 1 water_level_indicator_map.ncd water_level_indicator.ncd water_level_indicator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml water_level_indicator.twx water_level_indicator.ncd -o water_level_indicator.twr water_level_indicator.pcf 
+vhdtdtfi -prj Water_level_indicator -o C:/Users/RAHUL/vhdl_projects/Water_level_indicator/water_level_indicator.tfi -module water_level_indicator -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work water_level_indicator.vhd 
+xst -intstyle ise -ifn "C:/Users/RAHUL/vhdl_projects/Water_level_indicator/water_level_indicator.xst" -ofn "C:/Users/RAHUL/vhdl_projects/Water_level_indicator/water_level_indicator.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim water_level_indicator.ngc water_level_indicator_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/RAHUL/vhdl_projects/Water_level_indicator/water_level_indicator.xst" -ofn "C:/Users/RAHUL/vhdl_projects/Water_level_indicator/water_level_indicator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 water_level_indicator.ngc water_level_indicator.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o water_level_indicator_map.ncd water_level_indicator.ngd water_level_indicator.pcf 
+par -w -intstyle ise -ol high -t 1 water_level_indicator_map.ncd water_level_indicator.ncd water_level_indicator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml water_level_indicator.twx water_level_indicator.ncd -o water_level_indicator.twr water_level_indicator.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim water_level_indicator.ngc water_level_indicator_synthesis.v 

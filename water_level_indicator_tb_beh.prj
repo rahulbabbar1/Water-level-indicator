@@ -1,0 +1,2 @@
+vhdl work "water_level_indicator.vhd"
+vhdl work "water_level_indicator_tb.vhd"

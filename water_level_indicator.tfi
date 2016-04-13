@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+water_level_indicator instance_name (
+    .a0(a0), 
+    .a1(a1), 
+    .a2(a2), 
+    .a3(a3), 
+    .a4(a4), 
+    .a(a), 
+    .b(b), 
+    .c(c), 
+    .d(d), 
+    .e(e), 
+    .f(f), 
+    .g(g)
+    );
+
+

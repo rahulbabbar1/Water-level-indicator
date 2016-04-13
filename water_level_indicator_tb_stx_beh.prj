@@ -1,0 +1,2 @@
+vhdl isim_temp "water_level_indicator.vhd"
+vhdl isim_temp "water_level_indicator_tb.vhd"
